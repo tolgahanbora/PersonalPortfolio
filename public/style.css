@@ -1,0 +1,680 @@
+*{
+    background-color: rgb(44,52,58);
+    font-family: 'Roboto', sans-serif !important;
+}
+body{    background-color: rgb(44,52,58) !important;
+    font-family: 'Roboto', sans-serif !important;}
+
+/* NAV MENU */
+
+#logo{
+    width: 164px;
+    padding: 0px;
+ 
+}
+@media screen and (max-width:900px) {
+    #memojiContact{display:none}
+    }
+    #memoji2{
+        display:none
+    }
+
+.nav-link{
+    color: #fcfcfc !important;
+    padding: 30px !important;
+}
+span{
+    color: rgb(252,211,131);
+}
+p{
+    color: #fcfcfc;
+}
+h1{
+    color: #fcfcfc;
+}
+
+#introText{
+  line-height: 1.8;
+}
+
+.buton{
+    background-color: rgb(252,211,131);
+    height: 54px;
+    width: 150px;
+   color: rgb(44,52,58);
+    top: 396px;
+    
+    
+    }
+    #whatsapp{
+        background-color: transparent !important;
+        margin-bottom: 7px;
+        margin-left: 6px;
+    }
+  
+    .buton:hover{
+        height: 55px;
+        width: 151px;
+        box-shadow: 0 4px 8px 0 #fcfcfc, 0 6px 20px 0 #fcfcfc;
+        }
+       
+    #button{
+            background-color: rgb(252,211,131);
+    }
+    /* NAV MENU FINISHED- NAV MENU FINISHED - NAV MENU FINISHED*/
+
+
+
+    /* First Container Intro - First Container Intro  */
+            
+    #introText{
+        margin-top: 60px !important;
+        
+    }
+   #firstMemoji1{
+
+    float: right;
+    background-color: transparent;
+    position: relative;
+    bottom: 100px;
+   }
+   #cv{
+    width: 12px;
+
+   
+   }
+    #cv2{
+        background-color: rgb(44,52,58) !important;
+        color: #fcfcfc;
+        
+    }
+    #SocialMedia{
+        background-color: rgb(44,52,58);
+        color: #fcfcfc;
+    }
+
+    .footerIcon{
+        border: 3px solid rgb(252,211,131) !important;
+            height: 36px;
+            -moz-border-radius:50px;
+            -webkit-border-radius: 50px;
+            width: 36px;
+         
+           
+        }
+        a{
+            background-color: transparent;
+        }
+      
+         .linkedin{
+            background-color: transparent;
+            width: 19px;
+            margin-left: 6px;
+         }
+         .github{
+            background-color: transparent;
+            width: 23px;
+            margin-left: 4px;
+       
+         }
+         .instagram{
+            background-color: transparent;
+            width: 20px;
+            margin-left: 5px;
+
+         }
+         .medium{
+            background-color: transparent;
+            width: 20px;
+            margin-left: 5px;
+            margin-top: 4px ;
+         }
+         .mail{
+            background-color: transparent !;
+            width: 20px;
+            margin-left: 5px;
+        
+         }
+    
+    /* First Container Intro END - First Container Intro  END */
+
+
+    /* PROJECT CARD - PROJECT CARD - PROJECT CARD */
+    #ProjectH2{
+        color: #fcfcfc;
+        margin-top: 100px !important;
+    }
+    .project2{
+        background-color: transparent !important;
+    }
+    .card{
+        width: 320px;
+        height: 520px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #383e44 !important;
+    }
+    .card-body{
+        background-color: #383e44 !important;
+    }
+
+    #githubCode{
+     color:rgb(252,211,131) ;
+     background-color: #383e44;
+     float: right;
+    }
+    #projeLink{
+        color: rgb(252,211,131);
+        background-color: #383e44;
+    }
+    .card-title{
+        background-color: #383e44;
+        color: #fcfcfc;
+    }
+    .card-text{
+    background-color: #383e44;
+    }
+    #githubCard{
+        background-color: transparent;
+        margin-right: 5px;
+        width: 26px;
+    }
+    #cardLink{
+        background-color: transparent;
+        width: 23px;
+        margin-right: 5px;
+    }
+  /* PROJECT CARD END - PROJECT CARD END - PROJECT CARD END */
+
+
+    /* SKILL CARD START - SKILL CARD START - SKILL CARD START  */
+     .skills{
+        
+        border-radius: 25px !important;
+       width: 320px;
+        height: 460px; 
+    }
+
+    #frontend{
+        background-color: transparent ;
+        width: 80px;
+        position: relative;
+        top: 70px !important;
+    }
+    .front-end{
+        margin-top: 20px;
+    }
+    .skillText{
+        line-height: 1.7;
+    }
+ 
+    #server{
+        background-color: transparent;
+        width: 80px;
+        position: relative;
+        top: 80px !important;
+    }
+    #nodejs{
+        background-color: transparent;
+        width: 90px;
+        position: relative;
+        top: 60px !important;
+
+    }
+    .skillsTitle{
+        margin-top: 115px;
+        color: #fcfcfc;
+        background-color: #383e44;
+    }
+    .text-center{
+        background-color: #383e44;
+    }
+    #skillsH2{
+        color: #fcfcfc;
+        margin-top: 150px !important;
+    }
+    
+    /* USING TECHNOLOGY - USING TECHNOLOGY - USING TECHNOLOGY */
+
+    #toolsH2{
+        color: #fcfcfc;
+        margin-top: 220px !important;
+    }
+
+#html{
+    width: 50px;
+    background-color: transparent;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#CSS{
+    background-color: transparent;
+    width: 54px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#javascript{
+    background-color: transparent;
+    width: 57px;
+    margin-left: 23px;
+    margin-top: 2px;
+}
+#typescript{
+    background-color: transparent;
+    width: 55px;
+    margin-left: 23px;
+    margin-top: 2px;
+}
+#react{
+    background-color: transparent;
+    width: 45px;
+    margin-left: 28px;
+    margin-top: 15px;
+}
+#bootstrap{
+    background-color: transparent;
+    width: 55px;
+    margin-left: 23px;
+    margin-top: 5px;
+}
+#tailwind{
+    background-color: transparent;
+    width: 55px;
+    margin-left: 23px;
+    margin-top: 3px;
+}
+#backendnode{
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+#express{    
+    background-color: transparent;
+    width: 55px;
+    margin-left: 23px;
+    margin-top: 3px;
+}
+    #SQL{
+        background-color: transparent;
+        width: 55px;
+        margin-left: 23px;
+        margin-top: 4px;
+    }
+    #mongodb{
+        background-color: transparent;
+        width: 55px;
+        margin-left: 23px;
+        margin-top: 4px;
+    }
+    #aws{
+        background-color: #fcfcfc;
+        border-radius: 5px;
+        width: 40px;
+        margin-left: 32px;
+        margin-top: 15px;
+    }
+    #docker{
+        background-color: transparent;
+        width: 55px;
+        margin-left: 27px;
+        margin-top: 4px;
+    }
+    #redux{
+        background-color: transparent;
+        width: 55px;
+        margin-left: 25px;
+        margin-top: 4px;
+    }
+    #git{
+        background-color: transparent;
+        width: 55px;
+        margin-left: 23px;
+        margin-top: 4px;
+    }
+    
+
+    h6{
+        background-color: transparent;
+        color: #fcfcfc;
+        position: relative;
+        margin-top: 10px !important;
+    }
+
+    .tools{
+        border-radius: 25px !important;
+        width: 105px;
+         height: 105px; 
+         margin: 0px;
+         padding: 0px;
+    }
+
+
+
+
+
+
+
+    /* USING TECHNOLOGY END - USING TECHNOLOGY END - USING TECHNOLOGY END*/
+    
+    
+/* About Me Start - About Me Start - About Me Start */
+#AboutH2{
+    color: #fcfcfc;
+    margin-top: 140px !important;
+}
+#certificatedP{
+    background-color: transparent;
+    color: #fcfcfc;
+    margin-left: 75px;
+}
+.aboutmeText{
+    line-height: 1.8;
+}
+.certificatedh2{
+    color: #fcfcfc;
+}
+.certificateCard{
+        border-radius: 17px !important;
+        width: 100%;
+        height: 100px !important;
+    
+}
+.meta{
+    background-color: transparent;
+}
+.certificateCard2{
+    border-radius: 17px !important;
+    width: 98%;
+    height: 100px !important;
+}
+.certificated{
+    background-color: transparent;
+    margin-left: 75px;
+}
+.certificatedh5{
+    background-color: transparent;
+}
+.date {
+    float: right;
+    background-color: transparent;
+    margin-right: 50px !important;
+}
+.certificatedP{
+    background-color: transparent;
+    margin-left: 75px;
+    color: #fcfcfc;
+}
+
+#memoji2{
+    margin-top: 100px !important; 
+    margin-left: 100px !important;
+}
+/* About Me END - About Me END - About Me END */
+
+
+
+
+
+    /* EXPERIENCE START  - EXPERIENCE START - EXPERIENCE START- EXPERINCE START */
+
+    #experienceH2{
+        color: #fcfcfc;
+        margin-top: 150px !important;
+    }
+    .expCard{
+        width: 350px !important;
+        height: 210px;
+    }
+    .experienceText{
+        color: #fcfcfc;
+        background-color: #383e44;
+    }
+    .experienceH5{
+        color: #fcfcfc;
+        background-color: transparent !important;
+
+    }
+    .experienceP{
+        background-color: transparent;
+       
+    }
+    .experiencespan{
+        background-color: transparent;
+    }
+    .experienceB{
+        background-color: transparent;
+    }
+
+    .experience{
+        border-radius: 17px !important;
+        width: 100%;
+        height: 200px !important;
+    }
+
+    .experienceH7{  color: #fcfcfc;
+       margin-bottom: 35px;
+        background-color: transparent !important;}
+
+
+        /* EXPERIENCE END - EXPERIENCE END - EXPERIENCE END - EXPERINCE END */
+
+    /* CONTACT FORM START - CONTACT FORM START - CONTACT FORM START - CONTACT FORM START */
+    #nft{
+        height: 43% !important; 
+    }
+    #smart{
+        height: 43%;
+    }
+    #denemasd{
+        margin-top: 30px !important;
+    }
+
+    label{
+        color: #fcfcfc;
+    }
+    #contactH2{
+        color: #fcfcfc;
+    }
+    input{
+        background-color: #383e44 !important;
+    }
+    textarea{
+        background-color: #383e44 !important;
+    }
+    #formContainer{
+        margin-top: 300px !important;
+    }
+    #memojiContact{
+        background-color: transparent !important;
+     position: relative;
+     bottom: 100px;
+     left: 120px;
+    }
+
+
+    /* CONTACT FORM END - CONTACT FORM END - CONTACT FORM END - CONTACT FORM END */
+
+    /* FOOTER START - FOOTER START - FOOTER START - FOOTER START */
+
+    #containerfooter{
+        margin-top: 100px;
+
+    }
+
+    .linkedinFooter{
+        background-color: transparent;
+        width: 19px;
+        margin-left: 6px;
+     }
+     .githubFooter{
+        background-color: transparent;
+        width: 23px;
+        margin-left: 4px;
+        margin-top: 3px;
+   
+     }
+     .instagramFooter{
+        background-color: transparent;
+        width: 20px;
+        margin-left: 5px;
+        margin-top: 3px;
+     }
+     .mailFooter{
+        background-color: transparent !;
+        width: 20px;
+        margin-left: 5px;
+        margin-top: 3px;
+     }
+
+ /* MEDIUM LINKS - MEDIUM LINKS */
+ #Communication{
+    width: 315px;
+    height: 150px !important;
+    border-radius: 25px;
+ }
+ #MVC{
+    width: 315px;
+    height: 150px !important;
+    border-radius: 25px;
+ }
+ #agile{
+    width: 315px;
+    height: 150px !important;
+    border-radius: 25px;
+ }
+#AgileH4{
+    color: #fcfcfc;
+}
+#MVCh4{
+    margin-top: 15px ;
+    color: #fcfcfc;
+}
+#CommunicationH4{
+    margin-top: 10px ;
+    color: #fcfcfc;
+}
+#projeLink2{
+   
+    color:  rgb(252,211,131);
+
+}
+
+
+
+
+
+
+
+
+     /* FOOTER END - FOOTER END - FOOTER END - FOOTER END */
+
+
+     /* RESPONSIVE SETTINGS - RESPONSIVE SETTINGS - RESPONSIVE SETTINGS */
+
+     @media (max-width: 400.98px) {
+        #experience2{
+            height: auto !important;
+        }
+  
+
+        #date1{
+            margin: auto !important;
+        }
+      }
+      @media (max-width: 990px) {
+        #devopsCard{
+            margin-top: 15px !important;
+        }
+        #firstMemoji1{display: none;}
+        #certificateCard2{
+            height: auto !important;
+            width: auto !important;
+
+        }
+        #certificateCard2H5{
+            font-size: large;
+        }
+        #certificatedP{
+            margin-bottom: 10px;
+        }
+        #date2{
+            margin-top: 10px;
+            margin-left: 17px !important;
+        }
+        #experience2{
+            padding: 15px;
+        }
+        #cardWorks{
+            margin: auto !important;
+            
+        }
+        #cardWorks2{
+            margin: auto !important;
+            left: 250px !important;
+        }
+        #cardWorks3{
+            margin: auto !important;
+            left: 450px !important;
+        }
+
+
+      }
+      @media (max-width: 760px) {
+     
+       #certificateCard1{
+        height: auto !important;
+        width: auto !important
+    }
+    #firstMemoji1{display: none;}
+    #date1{
+    margin-left: 400px;
+    }
+    #amazon{
+        float: left !important;
+        margin-left: 72px !important;
+    }
+    #backend{
+        margin-top: 15px !important;
+    }
+
+}
+@media (max-width: 470.98px) {
+
+#cardWorks3{
+    margin-left: 50px !important;
+}
+
+#experience2{
+    height: auto !important;
+}
+
+.date{
+    display: none !important;
+}
+
+
+}
+@media (max-width: 580.98px) {
+    
+    #experience2{
+        height: auto !important;
+    }   
+    #firstMemoji1{display: none;}
+    .github{
+        width: 25px !important;
+        margin-left: 2px !important;
+    }   
+    .githubFooter{
+        width: 25px !important;
+        margin-left: 2px !important; 
+    }
+    }
+  
+  input{
+    color: #fcfcfc !important;
+   
+  }
+  textarea{
+    color: #fcfcfc !important;
+  }
